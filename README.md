@@ -24,3 +24,6 @@ Start the local development server:
 
 Generate a minified version of the css and javascripts
 * `make build`
+
+Generated content is placed into `public/` directory
+* have your own webserver serve the content from `public/` (I use apache)
