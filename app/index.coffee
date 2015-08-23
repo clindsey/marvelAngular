@@ -1,0 +1,2 @@
+require 'templates'
+require 'app'

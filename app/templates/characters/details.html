@@ -1,0 +1,11 @@
+<div class="modal-header">
+  <h4 class="modal-title">{{character.name}}</h4>
+</div>
+<div class="modal-body">
+  <p>{{ character.description }}</p>
+  <ul>
+    <li ng-repeat="url in character.urls">
+      <a href="{{url.url}}">{{url.type}}</a>
+    </li>
+  </ul>
+</div>
