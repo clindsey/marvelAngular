@@ -1,0 +1,3 @@
+require('templates');
+
+require('app');
